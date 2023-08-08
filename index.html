@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feastabless.com</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <style>
+  body{
+    background-color: greenyellow;
+  } 
+  .container{
+    width: 100%;
+  }
+  .MR{
+   font-family: "Ysabeau_SC variant0", Tofu;;
+   color:aqua;
+   font-size: larger;
+   font-weight:900
+  }
+  .card-cover{
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-size: cover;
+  }
+  #aws{
+    font-size: 20px;
+    color: aqua;
+  }
+  .pt-5 {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .nav-item{
+    color: aliceblue;
+  }
+
+  .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff3a58, #95ef72);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <section class="gradient-background">
+    <div class="container-fluid">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img src="./assets/logo.svg" height="50">
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
+  </section> 
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="MR">M r. B E A S T 's</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Nestlé's worst nightmare turned into sweet reality! Indulge in a chocolate experience that leaves those big corporations shaking in their boots.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+           <a href="./menu.html"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold" >Explore Delightness</button></a> 
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+  <div class="container px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom"></h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/chocco.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Our Secret Ingredient? <br/><span id="aws">Pure Awesomeness !</span> </h3>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/beastfeast.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Feast<br/> like a<br/> Beast</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/71IS4tduywL._SL1055_1200x1200.jpg');">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">"Taste the Trifecta...!"</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-lg">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/6352c0c112264d6db25193d7-feastables-mrbeast-quinoa-crunch.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Quinoa Crunch</h2>
+            <p>"A delightful blend of rich chocolate and crunchy quinoa, creating a heavenly treat with a satisfying texture"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/s-l1200.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Almond Delight</h2>
+            <p>"A perfect marriage of smooth, velvety chocolate and crunchy almonds, delivering a heavenly combination of flavors and textures"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/81YCbs7CnUL.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Choco Sea Salt</h2>
+            <p>"Sweet and salty collide in a divine chocolate experience"</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+<section class="gradient-background">
+  <div class="container-fluid"> 
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-3 top">
+        <p class="col-md-4 mb-0 text-muted">© 2023 Company, Inc</p>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="./assets/logo.svg" height="20">
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item" ><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+</section> 
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
